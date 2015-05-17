@@ -58,31 +58,31 @@ uint8_t send_bulk_messages(char *param, char data);
 
 #define strncmp_flash(sram,sflash,n) strncmp_P(sram,PSTR(sflash),n)
 
-static prog_char s_question[]	= "?";
-static prog_char s_help[] 		= "help";
+static const char s_question[] PROGMEM	= "?";
+static const char s_help[] PROGMEM 		= "help";
 
-static prog_char s_clear[]		= "clear";
+static const char s_clear[] PROGMEM		= "clear";
 
-static prog_char s_restart[] 	= "restart";
-static prog_char s_exit[]		= "exit";
+static const char s_restart[] PROGMEM 	= "restart";
+static const char s_exit[] PROGMEM		= "exit";
 
-//static prog_char s_led[] 		= "led";
-static prog_char s_hex[]		= "hex";
+//static const char s_led[] PROGMEM 		= "led";
+static const char s_hex[] PROGMEM		= "hex";
 
-static prog_char s_send_can[]	= "send";
-static prog_char s_send_can2[]	= ">";
+static const char s_send_can[] PROGMEM	= "send";
+static const char s_send_can2[] PROGMEM	= ">";
 
-static prog_char s_get[]		= "get";
-static prog_char s_set[]		= "set";
+static const char s_get[] PROGMEM		= "get";
+static const char s_set[] PROGMEM		= "set";
 
-//static prog_char s_gateway[]	= "gateway";
+//static const char s_gateway[] PROGMEM	= "gateway";
 
-static prog_char s_start[]		= "start";
-static prog_char s_stop[]		= "stop";
+static const char s_start[] PROGMEM		= "start";
+static const char s_stop[] PROGMEM		= "stop";
 
-static prog_char s_bulk[]		= "bulk";
+static const char s_bulk[] PROGMEM		= "bulk";
 
-static prog_char s_version[]	= "version";
+static const char s_version[] PROGMEM	= "version";
 
 // ----------------------------------------------------------------------------
 
